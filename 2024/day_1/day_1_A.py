@@ -35,7 +35,7 @@ for num1, num2, dist in zip(sorted_first, sorted_second, distance):
     print(f"{num1}\t\t{num2}\t\t{dist}")
 
 # Save to output file
-with open('total_distance.txt', 'w') as file:
+with open('day_1_A_Solution.txt', 'w') as file:
     file.write(f"Total Distance: {tot_distance}\n")
     file.write("First\t\tSecond\t\tDistance\n")
     file.write("-" * 60 + "\n")
